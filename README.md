@@ -1,6 +1,7 @@
 ## MNIST Digit Classification using Convolutional Neural Network (CNN)
 
 1. Introduction:
+   
 The primary aim was to develop a robust Convolutional Neural Network (CNN) for accurately classifying handwritten digits from the MNIST dataset. MNIST, a well-known collection of grayscale images representing digits 0 through 9, serves as an excellent testing ground for machine learning and neural network applications.
 
 The project journey involved a comprehensive exploration of the dataset, where we delved into its distribution, visualized key samples, and meticulously preprocessed the data. The heart of the project lies in the design and optimization of a neural network using the Keras Sequential API. Through an iterative process, we fine-tuned the architecture and introduced regularization techniques to enhance the model's accuracy and robustness.
