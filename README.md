@@ -1,13 +1,9 @@
 ## MNIST Digit Classification using Convolutional Neural Network (CNN)
 
 1. Introduction:
-In the realm of underwater exploration, distinguishing between rocks and metal cylinders is crucial for various applications, from marine research to navigation. The dataset at hand provides a comprehensive description of sonar chirp returns, representing the strength of echoes at different angles. This binary classification problem seeks to develop a robust model capable of accurately identifying whether the sonar signals correspond to rocks or metal cylinders.
+The primary aim was to develop a robust Convolutional Neural Network (CNN) for accurately classifying handwritten digits from the MNIST dataset. MNIST, a well-known collection of grayscale images representing digits 0 through 9, serves as an excellent testing ground for machine learning and neural network applications.
 
-2. Objective:
-The primary objective of this project is to design and train a deep neural network that can generalize well to new, unseen data, effectively distinguishing between rocks and metal cylinders based on the sonar chirp returns.
-
-3. The DATA: 
-The dataset consists of 60 input variables representing the strength of the returns at different angles. The dataset is loaded from a CSV file named "sonar.csv" using the Pandas library. It contains 61 columns, where the first 60 columns are input variables, and the last column (60) is the target variable indicating whether the object is a rock or a metal cylinder.
+The project journey involved a comprehensive exploration of the dataset, where we delved into its distribution, visualized key samples, and meticulously preprocessed the data. The heart of the project lies in the design and optimization of a neural network using the Keras Sequential API. Through an iterative process, we fine-tuned the architecture and introduced regularization techniques to enhance the model's accuracy and robustness.
 ## 🛠 Skills
 1. Neural Network Design
 2. Model Compilation and Training
